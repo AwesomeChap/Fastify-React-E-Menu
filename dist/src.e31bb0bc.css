@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+input, body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+  color: rgb(0, 140, 255);
+}
+
+h1 i{
+  color: blue;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.menu-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px;
+  /* background-color: #eeeeee; */
+  box-shadow: 0 0 5px #aaa;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.msg{
+  padding: 15px;
+  color: #777;
+  font-style: italic;
+}
+
+.menu-row.heading{
+  background: rgb(0, 81, 255);
+  color: white;
+}
+
+.menu-item-name, .menu-item-price, .operations{
+  padding: 15px;
+}
+
+.menu-item-name{
+  flex-basis: 40%;
+}
+
+.menu-item-price{
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.operations{
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.btn{
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin: -6px 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+}
+
+
+.edit{
+  background: rgb(255, 153, 0);
+}
+
+.edit:hover{
+  background: rgb(255, 197, 39);
+  transform: rotate(360deg);
+}
+
+.delete{
+  background: red;
+}
+
+.delete:hover{
+  background: rgb(255, 69, 69);
+  transform: rotate(360deg);
+}
+
+.done{
+  background: rgb(0, 175, 0);
+}
+
+.done:hover{
+  background: rgb(0, 218, 0);
+  transform: rotate(360deg);
+}
+
+.cancel{
+  background: red;
+}
+
+.cancel:hover{
+  background: rgb(255, 94, 0);
+  transform: rotate(360deg);
+}
+
+.add{
+  background: rgb(0, 81, 255);
+  margin: 10px 0 0 50%;
+  transform: translate(-50%,0) scale(1);
+  animation: elasticZoom 0.3s;
+}
+
+@keyframes elasticZoom{
+  0%{
+    transform: translate(-50%,0) scale(0.5);
+  }
+  70%{
+    transform: translate(-50%,0) scale(1.1);
+  }
+  100%{
+    transform: translate(-50%,0) scale(1);
+  }
+}
+
+.add:hover{
+  background-color: rgb(74, 115, 250);
+  transform: translate(-50%,0) scale(1.2);
+}
+
+input{
+  font-size: 16px;
+  padding: 8px;
+  margin: -9px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+input:focus{
+  border-color:#999;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
