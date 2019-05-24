@@ -2,7 +2,7 @@
 It is an Edittable menu in which you can create, modify and delete items. In more technical terms it is a Fullstack CRUD application made using React, Redux, Fastify and MongoDB 
 
 <p align="center">
-  <img src="https://github.com/AwesomeChap/Fastify-React-E-Menu/blob/master/src/finalx3.gif" width="800" hspace="20" />
+  <img src="https://github.com/AwesomeChap/Fastify-React-E-Menu/blob/master/src/finalx3.gif" width="800" />
 </p>
 
 ## Usage
