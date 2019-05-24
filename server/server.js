@@ -4,6 +4,7 @@ const routes = require('./routes');
 const path = require('path')
 
 const DistPath = path.join(__dirname, '..', 'dist')
+const port = process.env.PORT || 3000;
 
 fastify.register(require('fastify-static'), {
   root: DistPath,
@@ -22,7 +23,7 @@ fastify.get('/', async (request, reply) => {
 
 routes.forEach(route => fastify.route(route))
 
-fastify.listen(3000, (err) => {
+fastify.listen(port, (err) => {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
