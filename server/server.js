@@ -22,7 +22,7 @@ fastify.get('/', async (request, reply) => {
 
 routes.forEach(route => fastify.route(route))
 
-fastify.listen(process.env.PORT || 3000, (err) => {
+fastify.listen(process.env.PORT || 3000, '0.0.0.0', (err) => {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
