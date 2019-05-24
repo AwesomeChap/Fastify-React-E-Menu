@@ -7,7 +7,7 @@ It is an Edittable menu in which you can create, modify and delete items. In mor
 
 ## Usage
 
-* Create a Project on MongoAtlas and thereafter create a clusture. Now, click on connect and create a user, then add your ip address next step. Now just click on connect your application. 
+* Create a Project on MongoAtlas and thereafter create a clusture. Now, click on connect and create a user, then add your ip address next step. Now just click on connect your application and use the generated key of mongo database in file where you are connecting to MongoDB. 
 
 * Create .env at root directory and copy paste couple of lines shown below. Don't forget to enter your user password you created in previous step in place of `<USER_PASSWORD>`.
 
