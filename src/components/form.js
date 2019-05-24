@@ -8,7 +8,7 @@ export default class Form extends Component {
     //initializing state 
     this.state = {
       name: !this.props.name ? "" : this.props.name, 
-      price: !this.props.price ? "" : this.props.price
+      price: !this.props.price? "" : this.props.price
     };
   }
 
@@ -21,7 +21,7 @@ export default class Form extends Component {
   //function that sends the final data when user presses Submit
   handleSubmit = () => {
     const { name, price } = this.state;
-    if(this.props.name && this.props.price){
+    if(this.props.name){
       this.props.updateItem({ name, price });
     }
     else{

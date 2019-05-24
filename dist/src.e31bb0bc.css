@@ -35,6 +35,15 @@ h1 i{
   box-shadow: 0 0 5px #aaa;
   border-radius: 5px;
   overflow: hidden;
+  /* transform: perspective(50vh) rotateX(25deg); */
+  animation: fadeIn 0.3s forwards;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+    transform: translateY(8px);
+  }
 }
 
 .msg{
@@ -46,6 +55,8 @@ h1 i{
 .menu-row.heading{
   background: rgb(0, 81, 255);
   color: white;
+  font-weight: bold;
+  
 }
 
 .menu-item-name, .menu-item-price, .operations{
@@ -114,7 +125,7 @@ h1 i{
 }
 
 .cancel:hover{
-  background: rgb(255, 94, 0);
+  background: rgb(255, 69, 69);
   transform: rotate(360deg);
 }
 
@@ -154,6 +165,15 @@ input{
 
 input:focus{
   border-color:#999;
+}
+
+@media only screen and (max-width: 476px){
+  .menu{
+    width: 95vw;
+  }
+  .menu-item-name, .menu-item-price, .operations, .msg{
+    padding: 12px;
+  }
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */

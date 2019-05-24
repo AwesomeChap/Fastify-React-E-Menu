@@ -19,9 +19,7 @@ export default class MenuItem extends Component {
   }
 
   //function to trigger form view and close item view
-  handleEditClick = () => {
-    this.setState({ openEditForm: true })
-  }
+  handleEditClick = () => this.setState({ openEditForm: true })
 
   //calls parent's function to updated item
   handleUpdate = ({name, price}) => {
@@ -33,9 +31,7 @@ export default class MenuItem extends Component {
   }
 
   //calls parent's function to delete item from store
-  handleDelete = () => {
-    this.props.handleDelete(this.props.id);
-  }
+  handleDelete = () => this.props.handleDelete(this.props.id);
 
   //function to close form
   handleCancel = () => this.setState({openEditForm : false});
