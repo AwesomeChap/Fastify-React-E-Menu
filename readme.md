@@ -2,12 +2,12 @@
 It is an Edittable menu in which you can create, modify and delete items. In more technical terms it is a Fullstack CRUD application made using React, Redux, Fastify and MongoDB 
 
 <p align="center">
-  <img src="https://github.com/AwesomeChap/Fastify-React-E-Menu/blob/master/src/finalx3.GIF" width="800" hspace="20" />
+  <img src="https://github.com/AwesomeChap/Fastify-React-E-Menu/blob/master/src/finalx3.gif" width="800" />
 </p>
 
 ## Usage
 
-* Create a Project on MongoAtlas and thereafter create a clusture. Now, click on connect and create a user, then add your ip address next step. Now just click on connect your application. 
+* Create a Project on MongoAtlas and thereafter create a clusture. Now, click on connect and create a user, then add your ip address next step. Now just click on connect your application and use the generated key of mongo database in file where you are connecting to MongoDB. 
 
 * Open .env file present at root directory and replace `<USER_PASSWORD>` with your password that you created while creating cluster.
 
@@ -33,7 +33,5 @@ Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
 Starts the react app hosted on node server in production environment.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[comment] : # ##Tutorial on Medium
-
-[comment] : # Note : Work in progress
+ <!-- ##Tutorial on Medium -->
 
