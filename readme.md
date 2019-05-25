@@ -9,7 +9,7 @@ It is an Edittable menu in which you can create, modify and delete items. In mor
 
 * Create a Project on MongoAtlas and thereafter create a clusture. Now, click on connect and create a user, then add your ip address next step. Now just click on connect your application. 
 
-* Create .env at root directory and copy paste couple of lines shown below. Don't forget to enter your user password you created in previous step in place of `<USER_PASSWORD>`.
+* Open .env file present at root directory and replace `<USER_PASSWORD>` with your password that you created while creating cluster.
 
 ```javascript
   NODE_ENV=development
