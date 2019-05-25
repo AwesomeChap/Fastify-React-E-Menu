@@ -9,7 +9,7 @@ It is an Edittable menu in which you can create, modify and delete items. In mor
 
 * Create a Project on MongoAtlas and thereafter create a clusture. Now, click on connect and create a user, then add your ip address next step. Now just click on connect your application and use the generated key of mongo database in file where you are connecting to MongoDB. 
 
-* Open .env file present at root directory and replace `<USER_PASSWORD>` with your password that you created while creating cluster.
+* Open `.env` file present at root directory and replace `<USER_PASSWORD>` with your password that you created while creating cluster.
 
 ```javascript
   NODE_ENV=development
@@ -33,5 +33,7 @@ Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
 Starts the react app hosted on node server in production environment.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
- <!-- ##Tutorial on Medium -->
+## Tutorial on Medium
+* [Part 1](https://medium.com/@jatin15011999/fullstack-crud-application-using-fastify-react-redux-mongodb-part-1-9e8df39c6fff) - Static implementation of app using React and Redux.
+* Part 2 - Making changes persistant using Fastify and MongoDB.
 
