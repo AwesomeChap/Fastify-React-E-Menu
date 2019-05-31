@@ -1,5 +1,5 @@
 # Fastify-React-E-Menu
-It is an Edittable menu in which you can create, modify and delete items. In more technical terms it is a Fullstack CRUD application made using React, Redux, Fastify and MongoDB 
+It is an Editable menu in which you can create, modify and delete items. In more technical terms it is a Fullstack CRUD application made using React, Redux, Fastify and MongoDB 
 
 <p align="center">
   <img src="https://github.com/AwesomeChap/Fastify-React-E-Menu/blob/master/src/finalx3.gif" width="800" />
@@ -35,5 +35,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Tutorial on Medium
 * [Part 1](https://medium.com/@jatin15011999/fullstack-crud-application-using-fastify-react-redux-mongodb-part-1-9e8df39c6fff) - Static implementation of app using React and Redux.
-* Part 2 - Making changes persistant using Fastify and MongoDB.
+* [Part 2](https://medium.com/@jatin15011999/fullstack-crud-application-using-fastify-react-redux-mongodb-part-2-cc37ea4187ff) - Making changes persistant using Fastify and MongoDB.
 
